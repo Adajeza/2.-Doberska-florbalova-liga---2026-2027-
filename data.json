@@ -131,23 +131,23 @@
   ],
   "matches": [
     { "date": "2026-09-07", "home": "Hroši", "away": "Vratné lahve", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
-    { "date": "2026-09-07", "home": "Vratné lahve", "away": "YBALGYN", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
-    { "date": "2026-09-07", "home": "YBALGYN", "away": "Hroši", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
+    { "date": "2026-09-07", "home": "Vratné lahve", "away": "YBALGYN TEAM", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
+    { "date": "2026-09-07", "home": "YBALGYN TEAM", "away": "Hroši", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
 
     { "date": "2026-09-14", "home": "Skalka", "away": "Pop a Šrot", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
     { "date": "2026-09-14", "home": "Pop a Šrot", "away": "All-stars", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
     { "date": "2026-09-14", "home": "All-stars", "away": "Skalka", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
 
-    { "date": "2026-09-21", "home": "YBALGYN", "away": "Kohouti Studnice", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
+    { "date": "2026-09-21", "home": "YBALGYN TEAM", "away": "Kohouti Studnice", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
     { "date": "2026-09-21", "home": "Kohouti Studnice", "away": "Vratné lahve", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
-    { "date": "2026-09-21", "home": "Vratné lahve", "away": "YBALGYN", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
+    { "date": "2026-09-21", "home": "Vratné lahve", "away": "YBALGYN TEAM", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
 
-    { "date": "2026-10-05", "home": "Homolkovi vepři", "away": "YBALGYN", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
-    { "date": "2026-10-05", "home": "YBALGYN", "away": "Kohouti Studnice", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
+    { "date": "2026-10-05", "home": "Homolkovi vepři", "away": "YBALGYN TEAM", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
+    { "date": "2026-10-05", "home": "YBALGYN TEAM", "away": "Kohouti Studnice", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
     { "date": "2026-10-05", "home": "Kohouti Studnice", "away": "Homolkovi vepři", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
 
-    { "date": "2026-10-12", "home": "Homolkovi vepři", "away": "YBALGYN", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
-    { "date": "2026-10-12", "home": "YBALGYN", "away": "All-stars", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
+    { "date": "2026-10-12", "home": "Homolkovi vepři", "away": "YBALGYN TEAM", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
+    { "date": "2026-10-12", "home": "YBALGYN TEAM", "away": "All-stars", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
     { "date": "2026-10-12", "home": "All-stars", "away": "Homolkovi vepři", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
 
     { "date": "2026-10-19", "home": "Pop a Šrot", "away": "Skalka", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
@@ -158,23 +158,23 @@
     { "date": "2026-10-26", "home": "Hroši", "away": "Vratné lahve", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
     { "date": "2026-10-26", "home": "Vratné lahve", "away": "All-stars", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
       
-    { "date": "2026-11-02", "home": "YBALGYN", "away": "Kohouti Studnice", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
+    { "date": "2026-11-02", "home": "YBALGYN TEAM", "away": "Kohouti Studnice", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
     { "date": "2026-11-02", "home": "Kohouti Studnice", "away": "All-stars", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
-    { "date": "2026-11-02", "home": "Pop a Šrot", "away": "YBALGYN", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
+    { "date": "2026-11-02", "home": "Pop a Šrot", "away": "YBALGYN TEAM", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
 
     { "date": "2026-11-09", "home": "Vratné lahve", "away": "All-stars", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
     { "date": "2026-11-09", "home": "All-stars", "away": "Skalka", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
     { "date": "2026-11-09", "home": "Skalka", "away": "Vratné lahve", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
 
     { "date": "2026-11-16", "home": "Pop a Šrot", "away": "All-stars", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
-    { "date": "2026-11-16", "home": "All-stars", "away": "YBALGYN", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
-    { "date": "2026-11-16", "home": "YBALGYN", "away": "Pop a Šrot", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
+    { "date": "2026-11-16", "home": "All-stars", "away": "YBALGYN TEAM", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
+    { "date": "2026-11-16", "home": "YBALGYN TEAM", "away": "Pop a Šrot", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
 
-    { "date": "2026-11-23", "home": "Skalka", "away": "YBALGYN", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
-    { "date": "2026-11-23", "home": "YBALGYN", "away": "Hroši", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
+    { "date": "2026-11-23", "home": "Skalka", "away": "YBALGYN TEAM", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
+    { "date": "2026-11-23", "home": "YBALGYN TEAM", "away": "Hroši", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
     { "date": "2026-11-23", "home": "Hroši", "away": "Skalka", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
 
-    { "date": "2026-11-30", "home": "Vratné lahve", "away": "Pop a Šrot", "played": false, "homeGoals": 0, "awayGoals": 0, "resultType": "playersHome": [], "playersAway": [], "goalscorers": [] },
+    { "date": "2026-11-30", "home": "Vratné lahve", "away": "Pop a Šrot", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
     { "date": "2026-11-30", "home": "Pop a Šrot", "away": "Homolkovi vepři", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
     { "date": "2026-11-30", "home": "Homolkovi vepři", "away": "Vratné lahve", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
 
@@ -182,9 +182,9 @@
     { "date": "2026-12-07", "home": "Pop a Šrot", "away": "Hroši", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
     { "date": "2026-12-07", "home": "Hroši", "away": "Kohouti Studnice", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
 
-    { "date": "2026-12-14", "home": "YBALGYN", "away": "Skalka", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
+    { "date": "2026-12-14", "home": "YBALGYN TEAM", "away": "Skalka", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
     { "date": "2026-12-14", "home": "Skalka", "away": "Pop a Šrot", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
-    { "date": "2026-12-14", "home": "Pop a Šrot", "away": "YBALGYN", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
+    { "date": "2026-12-14", "home": "Pop a Šrot", "away": "YBALGYN TEAM", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
 
     { "date": "2026-12-21", "home": "Skalka", "away": "Homolkovi vepři", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
     { "date": "2026-12-21", "home": "Homolkovi vepři", "away": "Kohouti Studnice", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
@@ -194,8 +194,8 @@
     { "date": "2027-01-04", "home": "Kohouti Studnice", "away": "Pop a Šrot", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
     { "date": "2027-01-04", "home": "Pop a Šrot", "away": "All-stars", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
 
-    { "date": "2027-01-11", "home": "Skalka", "away": "YBALGYN", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
-    { "date": "2027-01-11", "home": "YBALGYN", "away": "All-stars", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
+    { "date": "2027-01-11", "home": "Skalka", "away": "YBALGYN TEAM", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
+    { "date": "2027-01-11", "home": "YBALGYN TEAM", "away": "All-stars", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
     { "date": "2027-01-11", "home": "All-stars", "away": "Skalka", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
 
     { "date": "2027-01-18", "home": "Homolkovi vepři", "away": "Kohouti Studnice", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
@@ -218,8 +218,8 @@
     { "date": "2027-02-15", "home": "Hroši", "away": "Skalka", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
     { "date": "2027-02-15", "home": "Skalka", "away": "Kohouti Studnice", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
 
-    { "date": "2027-02-22", "home": "Vratné lahve", "away": "YBALGYN", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
-    { "date": "2027-02-22", "home": "YBALGYN", "away": "Homolkovi vepři", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
+    { "date": "2027-02-22", "home": "Vratné lahve", "away": "YBALGYN TEAM", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
+    { "date": "2027-02-22", "home": "YBALGYN TEAM", "away": "Homolkovi vepři", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
     { "date": "2027-02-22", "home": "Homolkovi vepři", "away": "Vratné lahve", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
 
     { "date": "2027-03-01", "home": "Pop a Šrot", "away": "Hroši", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
@@ -228,15 +228,15 @@
 
     { "date": "2027-03-08", "home": "Hroši", "away": "Pop a Šrot", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
     { "date": "2027-03-08", "home": "Pop a Šrot", "away": "Vratné lahve", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
-    { "date": "2027-03-08", "home": "YBALGYN", "away": "Hroši", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] }
+    { "date": "2027-03-08", "home": "YBALGYN TEAM", "away": "Hroši", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
 
     { "date": "2027-03-15", "home": "Kohouti Studnice", "away": "Vratné lahve", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
     { "date": "2027-03-15", "home": "Vratné lahve", "away": "All-stars", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
-    { "date": "2027-03-15", "home": "All-stars", "away": "Kohouti Studnice", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] }
+    { "date": "2027-03-15", "home": "All-stars", "away": "Kohouti Studnice", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
 
     { "date": "2027-03-22", "home": "Vratné lahve", "away": "Skalka", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
     { "date": "2027-03-22", "home": "Skalka", "away": "Kohouti Studnice", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
-    { "date": "2027-03-22", "home": "Homolkovi vepři", "away": "Vratné lahve", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] }
+    { "date": "2027-03-22", "home": "Homolkovi vepři", "away": "Vratné lahve", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
 
     { "date": "2027-04-05", "home": "All-stars", "away": "Homolkovi vepři", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
     { "date": "2027-04-05", "home": "Homolkovi vepři", "away": "Skalka", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
