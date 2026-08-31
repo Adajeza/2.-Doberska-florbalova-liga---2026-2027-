@@ -54,7 +54,7 @@
     {
       "name": "Hroši",
       "players": [
-        { "number": 99, "name": "Jan Franc", "position": "G", "goals": 0, "matches": 0, "goalsAgainst": 29 },
+        { "number": 99, "name": "Jan Franc", "position": "G", "goals": 0, "matches": 0, "goalsAgainst": 0 },
         { "number": 1, "name": "Tereza Svobodová", "position": "G", "goals": 0, "matches": 0, "goalsAgainst": 0 },
         { "number": 98, "name": "Nick Mádr", "position": "G", "goals": 0, "matches": 0, "goalsAgainst": 0 },
         { "number": 2, "name": "Martin Pašta", "position": "P", "goals": 0, "matches": 0 },
@@ -102,7 +102,7 @@
         { "number": 47, "name": "Miloslav Pop", "position": "P", "goals": 0, "matches": 0 },
         { "number": 74, "name": "Filip Matějů", "position": "P", "goals": 0, "matches": 0 },
         { "number": 13, "name": "Martin Holub", "position": "P", "goals": 0, "matches": 0 },
-        { "number": 69, "name": "Jan Pop", "position": "P", "goals": 0, "matches": 0 },
+        { "number": 98, "name": "Jan Pop", "position": "P", "goals": 0, "matches": 0 },
         { "number": 51, "name": "Marek Čejpa", "position": "P", "goals": 0, "matches": 0 },
         { "number": 69, "name": "Tomáš Pekař", "position": "P", "goals": 0, "matches": 0 },
         { "number": 67, "name": "Tomáš Rýznar", "position": "P", "goals": 0, "matches": 0 },
@@ -125,7 +125,7 @@
         { "number": 96, "name": "Jakub Frajvald", "position": "P", "goals": 0, "matches": 0 },
         { "number": 85, "name": "Adam Balek", "position": "P", "goals": 0, "matches": 0 },
         { "number": 14, "name": "Klára Řeháková", "position": "P", "goals": 0, "matches": 0 },
-        { "number": 89, "name": "Matěj Štěpán", "position": "P", "goals": 0, "matches": 0 }
+        { "number": 89, "name": "Matěj Štěpán", "position": "P", "goals": 0, "matches": 0 },
         { "number": 12, "name": "Matěj Hanis", "position": "P", "goals": 0, "matches": 0 }
       ]
     },
