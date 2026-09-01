@@ -25,7 +25,7 @@
       "name": "YBALGYN TEAM",
       "players": [
         { "number": 0, "name": "Matěj Paleček", "position": "G", "goals": 0, "matches": 0, "goalsAgainst": 0 },
-        { "number": 27, "name": "Michal Boleha", "position": "G", "goals": 0, "matches": 0, "goalsAgainst": 0 },
+        { "number": 27, "name": "Michal Bolehovský", "position": "G", "goals": 0, "matches": 0, "goalsAgainst": 0 },
         { "number": 22, "name": "Jakub Krejčík", "position": "P", "goals": 0, "matches": 0 },
         { "number": 13, "name": "Kamil Bartoš", "position": "P", "goals": 0, "matches": 0 },
         { "number": 48, "name": "Tadeáš Drbula", "position": "P", "goals": 0, "matches": 0 },
@@ -85,12 +85,11 @@
         { "number": 10, "name": "Vladimír Mičian", "position": "P", "goals": 0, "matches": 0 },
         { "number": 8, "name": "Anna Křížová", "position": "P", "goals": 0, "matches": 0 },
         { "number": 9, "name": "Jakub Volf", "position": "P", "goals": 0, "matches": 0 },
-        { "number": 7, "name": "Vojtěch Mňuk", "position": "P", "goals": 0, "matches": 0 },
         { "number": 3, "name": "Jakub Mervart", "position": "P", "goals": 0, "matches": 0 },
         { "number": 1, "name": "Josef Pohl", "position": "G", "goals": 0, "matches": 0, "goalsAgainst": 0 },
-        { "number": 98, "name": "Dominik Novotný", "position": "G", "goals": 0, "matches": 0, "goalsAgainst": 0 },
-        { "number": 97, "name": "Slavomír Bílek", "position": "G", "goals": 0, "matches": 0, "goalsAgainst": 0 },
-        { "number": 99, "name": "Jakub Matějů", "position": "G", "goals": 0, "matches": 0, "goalsAgainst": 0 }
+        { "number": 20, "name": "Dominik Novotný", "position": "G", "goals": 0, "matches": 0, "goalsAgainst": 0 },
+        { "number": 21, "name": "Slavomír Bílek", "position": "G", "goals": 0, "matches": 0, "goalsAgainst": 0 },
+        { "number": 22, "name": "Jakub Matějů", "position": "G", "goals": 0, "matches": 0, "goalsAgainst": 0 }
       ]
     },
     {
@@ -138,7 +137,6 @@
         { "number": 69, "name": "Dominik Barilla", "position": "P", "goals": 0, "matches": 0 },
         { "number": 50, "name": "Tomáš Kulhánek", "position": "P", "goals": 0, "matches": 0 },
         { "number": 2, "name": "Šimon Horáček", "position": "P", "goals": 0, "matches": 0 },
-        { "number": 99, "name": "Richard Chaloupka", "position": "P", "goals": 0, "matches": 0 },
         { "number": 12, "name": "Václav Nosek", "position": "P", "goals": 0, "matches": 0 },
         { "number": 1, "name": "Andrej Pápeš", "position": "G", "goals": 0, "matches": 0, "goalsAgainst": 0 }
       ]
