@@ -24,8 +24,8 @@
     {
       "name": "YBALGYN TEAM",
       "players": [
-        { "number": 0, "name": "Matěj Paleček", "position": "G", "goals": 0, "matches": 2, "goalsAgainst": 23 },
-        { "number": 27, "name": "Michal Bolehovský", "position": "G", "goals": 0, "matches": 0, "goalsAgainst": 0 },
+        { "number": 0, "name": "Matěj Paleček", "position": "G", "goals": 0, "matches": 0, "goalsAgainst": 0 },
+        { "number": 27, "name": "Michal Bolehovský", "position": "G", "goals": 0, "matches": 2, "goalsAgainst": 23 },
         { "number": 22, "name": "Jakub Krejčík", "position": "P", "goals": 4, "matches": 2 },
         { "number": 13, "name": "Kamil Bartoš", "position": "P", "goals": 1, "matches": 2 },
         { "number": 48, "name": "Tadeáš Drbula", "position": "P", "goals": 0, "matches": 0 },
