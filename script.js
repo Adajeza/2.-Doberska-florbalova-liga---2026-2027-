@@ -154,16 +154,28 @@ function renderScorers(){
 
   const list = [];
   data.teams.forEach(team => {
-    team.players.forEach(p => {
-      if (!p.position || p.position.toUpperCase() === 'G') return;
-      // spočítat ze zápasů
-      const stats = calculatePlayerStats(p, team.name);
-      list.push({ name: p.name, team: team.name, goals: stats.goals, matches: stats.matches });
+  team.players.forEach(p => {
+    if (p.position && p.position.toUpperCase() === 'G') return;
+
+    const matches = Number(p.matches) || 0;
+
+    // Do střelců pouze hráči, kteří odehráli alespoň 1 zápas
+    if (matches < 1) return;
+
+    list.push({
+      name: p.name,
+      team: team.name,
+      goals: Number(p.goals) || 0,
+      matches: matches
     });
   });
+});
 
-  list.sort((a,b) => b.goals - a.goals || b.matches - a.matches);
-
+  list.sort((a, b) =>
+  b.goals - a.goals ||
+  a.matches - b.matches ||
+  a.name.localeCompare(b.name, 'cs')
+);
   let html = '<table><thead><tr><th>Poř.</th><th>Jméno</th><th>Tým</th><th>Zápasy</th><th>Góly</th></tr></thead><tbody>';
   list.forEach((p,i) => html += `<tr><td>${i+1}</td><td>${p.name}</td><td>${p.team}</td><td>${p.matches}</td><td>${p.goals}</td></tr>`);
   html += '</tbody></table>';
@@ -178,51 +190,34 @@ function renderGoalies(){
 
   const list = [];
   data.teams.forEach(team => {
-    team.players.forEach(p => {
-      if (!p.position || p.position.toUpperCase() !== 'G') return;
-      const s = calculatePlayerStats(p, team.name);
-      list.push({ name: p.name, team: team.name, matches: s.matches, goalsAgainst: s.goalsAgainst, avg: s.matches? (s.goalsAgainst/s.matches) : 0 });
+  team.players.forEach(p => {
+    if (!p.position || p.position.toUpperCase() !== 'G') return;
+
+    const matches = Number(p.matches) || 0;
+    const goalsAgainst = Number(p.goalsAgainst) || 0;
+
+    // Do statistik pouze brankáři, kteří odehráli alespoň 1 zápas
+    if (matches < 1) return;
+
+    list.push({
+      name: p.name,
+      team: team.name,
+      matches: matches,
+      goalsAgainst: goalsAgainst,
+      avg: goalsAgainst / matches
     });
   });
+});
 
-  list.sort((a,b) => a.avg - b.avg);
+  list.sort((a, b) =>
+  a.avg - b.avg ||
+  b.matches - a.matches ||
+  a.name.localeCompare(b.name, 'cs')
+);
 
   let html = '<table><thead><tr><th>Poř.</th><th>Jméno</th><th>Tým</th><th>Zápasy</th><th>Obdržené</th><th>Průměr</th></tr></thead><tbody>';
   list.forEach((g,i) => html += `<tr><td>${i+1}</td><td class="gk">${g.name}</td><td>${g.team}</td><td>${g.matches}</td><td>${g.goalsAgainst}</td><td>${g.avg.toFixed(2)}</td></tr>`);
   html += '</tbody></table>';
   el.insertAdjacentHTML('beforeend', html);
-}
-
-// --- pomocná funkce: počítání zápasů a gólů ---
-function calculatePlayerStats(player, teamName){
-  let matches = 0, goals = 0, goalsAgainst = 0;
-  data.matches.forEach(m => {
-    if (!m.played) return;
-    const isHomeTeam = m.home === teamName;
-    const isAwayTeam = m.away === teamName;
-
-    if (player.position && player.position.toUpperCase() === 'G'){
-      if (isHomeTeam || isAwayTeam){
-        matches++;
-        goalsAgainst += isHomeTeam ? Number(m.awayGoals) : Number(m.homeGoals);
-      }
-    } else {
-      // u hráče kontrolujeme pole playersHome/playersAway (uložená čísla)
-      if (isHomeTeam && Array.isArray(m.playersHome) && player.number !== null){
-        if (m.playersHome.includes(player.number)) {
-          matches++;
-          // goalscorers pole obsahuje čísla střelců; sečíst jak často se číslo objevilo
-          if (Array.isArray(m.goalscorers)) goals += m.goalscorers.filter(g => g === player.number).length;
-        }
-      }
-      if (isAwayTeam && Array.isArray(m.playersAway) && player.number !== null){
-        if (m.playersAway.includes(player.number)) {
-          matches++;
-          if (Array.isArray(m.goalscorers)) goals += m.goalscorers.filter(g => g === player.number).length;
-        }
-      }
-    }
-  });
-  return { matches, goals, goalsAgainst };
 }
 
