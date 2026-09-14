@@ -71,10 +71,32 @@ function renderTable(){
     stats[home].gf += hg; stats[home].ga += ag;
     stats[away].gf += ag; stats[away].ga += hg;
 
-    // jednoduchý systém: výhra 3, remíza 1, prohra 0; SN not used here
-    if (hg > ag) { stats[home].win++; stats[home].points += 3; stats[away].loss++; }
-    else if (hg < ag) { stats[away].win++; stats[away].points += 3; stats[home].loss++; }
-    else { stats[home].draw++; stats[away].draw++; stats[home].points +=1; stats[away].points +=1; }
+   if (m.resultType === 'shootout') {
+  if (hg > ag) {
+    stats[home].otWin++;
+    stats[home].points += 2;
+    stats[away].otLoss++;
+    stats[away].points += 1;
+  } else if (hg < ag) {
+    stats[away].otWin++;
+    stats[away].points += 2;
+    stats[home].otLoss++;
+    stats[home].points += 1;
+  }
+} else if (hg > ag) {
+  stats[home].win++;
+  stats[home].points += 3;
+  stats[away].loss++;
+} else if (hg < ag) {
+  stats[away].win++;
+  stats[away].points += 3;
+  stats[home].loss++;
+} else {
+  stats[home].draw++;
+  stats[away].draw++;
+  stats[home].points += 1;
+  stats[away].points += 1;
+}
   });
 
   const arr = Object.keys(stats).map(name => {
@@ -103,7 +125,11 @@ function renderResults(){
 
   let html = '<table><thead><tr><th>Datum</th><th>Domácí</th><th>Výsledek</th><th>Hosté</th></tr></thead><tbody>';
   played.forEach(m => {
-    html += `<tr><td>${m.date}</td><td>${m.home}</td><td>${m.homeGoals}:${m.awayGoals}</td><td>${m.away}</td></tr>`;
+    const result = m.resultType === 'shootout'
+  ? `${m.homeGoals}:${m.awayGoals} po nájezdech`
+  : `${m.homeGoals}:${m.awayGoals}`;
+
+html += `<tr><td>${m.date}</td><td>${m.home}</td><td>${result}</td><td>${m.away}</td></tr>`;
   });
   html += '</tbody></table>';
   el.insertAdjacentHTML('beforeend', html);
