@@ -152,7 +152,7 @@
     { "date": "2026-09-07", "home": "YBALGYN TEAM", "away": "Hroši", "played": true, "homeGoals": 7, "awayGoals": 15, "playersHome": [], "playersAway": [], "goalscorers": [] },
 
     { "date": "2026-09-14", "home": "Skalka", "away": "Pop a Šrot", "played": true, "homeGoals": 2, "awayGoals": 11, "playersHome": [], "playersAway": [], "goalscorers": [] },
-    { "date": "2026-09-14", "home": "Pop a Šrot", "away": "All-stars", "played": true, "homeGoals": 9, "awayGoals": 8, "resultType": "shootout", "winner": "Pop a šrot", "playersHome": [], "playersAway": [], "goalscorers": [] },
+    { "date": "2026-09-14", "home": "Pop a Šrot", "away": "All-stars", "played": true, "homeGoals": 9, "awayGoals": 8, "resultType": "shootout", "winner": "Pop a Šrot", "playersHome": [], "playersAway": [], "goalscorers": [] },
     { "date": "2026-09-14", "home": "All-stars", "away": "Skalka", "played": true, "homeGoals": 10, "awayGoals": 11, "playersHome": [], "playersAway": [], "goalscorers": [] },
 
     { "date": "2026-09-21", "home": "YBALGYN TEAM", "away": "Kohouti Studnice", "played": false, "homeGoals": 0, "awayGoals": 0, "playersHome": [], "playersAway": [], "goalscorers": [] },
